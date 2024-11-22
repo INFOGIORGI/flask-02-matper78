@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benvenuto!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navbar Styling */
+        nav {
+            background-color: #4CAF50;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+        }
+
+        /* Highlighted (active) link */
+        nav a.active {
+            background-color: #45a049;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #45a049;
+            border-radius: 5px;
+        }
+
+        /* Page Content */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .content {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <a href="index.html" class="active">Home</a> <!-- Active link for the current page -->
+        <a href="{{url_for('aboutUs')}}">Chi Siamo</a>
+        <a href="contact.html">Contatti</a>
+    </nav>
+
+    <!-- Content -->
+    <header>
+        <h1>Benvenuto nel nostro sito!</h1>
+    </header>
+
+    <div class="content">
+        <p>Ci fa piacere che tu sia qui. Esplora il nostro sito per scoprire tutte le novità!</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tutti i diritti riservati</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatti</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+        }
+        h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .content {
+            margin-top: 50px;
+            text-align: left;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 20px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .contact-info {
+            margin-top: 30px;
+        }
+        .contact-info div {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Contattaci</h1>
+    </header>
+
+    <div class="content">
+        <p>Hai domande o desideri maggiori informazioni sui nostri prodotti e servizi? Siamo qui per aiutarti!</p>
+
+        <div class="contact-info">
+            <div>
+                <strong>Indirizzo:</strong><br>
+                Via delle Innovazioni, 15, 00123 Roma, Italia
+            </div>
+
+            <div>
+                <strong>Telefono:</strong><br>
+                +39 06 12345678
+            </div>
+
+            <div>
+                <strong>Email:</strong><br>
+                supporto@innovazionetecnologica.it
+            </div>
+
+            <div>
+                <strong>Orari di apertura:</strong><br>
+                Lunedì - Venerdì: 9:00 - 18:00<br>
+                Sabato: 10:00 - 14:00<br>
+                Domenica: Chiuso
+            </div>
+        </div>
+
+        <p>Puoi anche utilizzare il modulo sottostante per inviarci direttamente un messaggio:</p>
+
+        <form action="#" method="post">
+            <label for="name">Nome:</label><br>
+            <input type="text" id="name" name="name" placeholder="Inserisci il tuo nome" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Inserisci la tua email" required><br><br>
+
+            <label for="message">Messaggio:</label><br>
+            <textarea id="message" name="message" rows="4" placeholder="Scrivi il tuo messaggio" required></textarea><br><br>
+
+            <button type="submit">Invia Messaggio</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tutti i diritti riservati</p>
+    </footer>
+
+</body>
+</html>
